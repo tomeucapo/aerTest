@@ -1,0 +1,8 @@
+LogServers=["logs01:28015", "logs02:28015"]
+Database="bookcore"
+
+[aer]
+#Endpoint="http://192.168.12.3:10104/Availability"
+Timeout=600
+RequestTypes=["dispo_limit_edad", "dispo_limit_ocupa", "dispo"]
+RsPrintAbove=9000
